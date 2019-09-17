@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(239,239,239);
+    font-family: fantasy;
+    font-size: 12px;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 50px;
+    border-bottom: 5px solid rgba(0,0,0, 0.5);
+}
+form {
+}
+form .form-group {
+    margin: 10px 0;
+}
+form label {
+    width: 150px;
+    display: inline-block;   
+}
+form .input {
+    padding: 10px;
+    width:70%;
+    height:10%;
+    border:8px solid rgba(0,0,0,0.2);
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+form input[type=submit] {
+    background-color: black;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    width: 200px;
+}
+
+.output {
+    height: 200px;
+    margin: 20px 50px;
+    overflow-y: scroll;
+    border: 5px solid black;
+}
+.output > .content {
+    margin: 20px;
+}
